@@ -1,0 +1,17 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.vscode
+.idea
+data/
+vectorstore/
+tests/.pytest_cache
+.env
+Dockerfile
+docker-compose.yml
+README.md
+docs/

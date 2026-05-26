@@ -1,0 +1,13 @@
+Quantum Computing and RAG Systems
+
+Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers. 
+Quantum mechanics is the branch of physics that studies behavior at the atomic and subatomic levels.
+
+Key concepts in quantum computing include:
+1. Superposition: The ability of a quantum system to be in multiple states at the same time.
+2. Entanglement: A quantum phenomenon where particles become interconnected, such that the state of one instantly influences the state of another, regardless of distance.
+3. Qubits: The basic unit of quantum information, analogous to the bit in classical computing.
+
+Retrieval-Augmented Generation (RAG) is an architectural pattern that improves the accuracy and reliability of Large Language Model (LLM) responses.
+By retrieving facts from an external knowledge base (like a vector store containing documentation about quantum mechanics), the LLM can reference verified sources before generating answers.
+This significantly reduces hallucinations and ensures context-specific accuracy.

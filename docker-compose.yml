@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  rag-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag_assistant_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the local data folder to persist document uploads and vector indexes
+      - ./data:/code/data
+    env_file:
+      # Inject configurations from local environment variables
+      - .env
+    restart: always
